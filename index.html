@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salma Rufaidah | Academic & Quranic Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Pengaturan -->
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="brand-arabic">سلمى رفيدة</span>
+                <span class="brand-latin">Salma Rufaidah</span>
+            </a>
+            
+            <div class="controls-group">
+                <!-- Tombol Ganti Bahasa -->
+                <button id="langToggle" class="pill-btn" aria-label="Ganti Bahasa">
+                    <span class="btn-icon">🌐</span>
+                    <span id="langLabel">EN</span>
+                </button>
+                <!-- Tombol Ganti Tema -->
+                <button id="themeToggle" class="pill-btn" aria-label="Ganti Mode Tema">
+                    <span id="themeIcon" class="btn-icon">🌙</span>
+                    <span id="themeLabel">Dark</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Bar Navigasi Tombol Pintas -->
+        <nav class="sub-nav">
+            <div class="nav-scroll">
+                <a href="#about" class="nav-tab active" data-id="Tentang" data-en="About">Tentang</a>
+                <a href="#education" class="nav-tab" data-id="Pendidikan" data-en="Education">Pendidikan</a>
+                <a href="#quran" class="nav-tab" data-id="Al-Qur'an" data-en="Quran Journey">Al-Qur'an</a>
+                <a href="#arabic" class="nav-tab" data-id="Bahasa Arab" data-en="Arabic Studies">Bahasa Arab</a>
+                <a href="#teaching" class="nav-tab" data-id="Pengalaman Mengajar" data-en="Teaching">Pengalaman Mengajar</a>
+                <a href="#it" class="nav-tab" data-id="IT & Proyek" data-en="Tech & Projects">IT &amp; Proyek</a>
+                <a href="#contact" class="nav-tab" data-id="Kontak" data-en="Contact">Kontak</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-wrapper">
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section card">
+            <div class="hero-badge" data-id="Thalibatul 'Ilmi & Pengajar" data-en="Student of Knowledge & Educator">
+                Thalibatul 'Ilmi &amp; Pengajar
+            </div>
+            <h1 class="hero-name">Salma Rufaidah</h1>
+            <p class="hero-subtitle" data-id="Pelajar Bahasa Arab & Al-Qur'an | Pengajar Tahfidz, Tashih & Durusul Lughoh | IT Enthusiast" data-en="Student of Arabic & Quran | Teacher of Tahfiz, Tashih & Durusul Lughah | Tech Enthusiast">
+                Pelajar Bahasa Arab &amp; Al-Qur'an | Pengajar Tahfidz, Tashih &amp; Durusul Lughoh | IT Enthusiast
+            </p>
+            <div class="hero-actions">
+                <a href="#teaching" class="btn btn-primary" data-id="Lihat Pengalaman" data-en="View Experience">Lihat Pengalaman</a>
+                <a href="#it" class="btn btn-secondary" data-id="Proyek Digital" data-en="Digital Projects">Proyek Digital</a>
+            </div>
+        </section>
+
+        <!-- Tentang Saya & Biodata -->
+        <section id="about" class="content-section card">
+            <div class="section-title">
+                <h2 data-id="Tentang Saya" data-en="About Me">Tentang Saya</h2>
+            </div>
+            <p class="section-text" data-id="Saya adalah seorang pelajar jurusan Bahasa Arab yang memiliki ketertarikan besar di bidang Al-Qur'an, Bahasa Arab, dan IT. Aktif dalam kegiatan mengajar tahfidz, tashih tilawah, serta bahasa Arab, didukung kemampuan komunikasi yang baik serta dedikasi dalam belajar dan berbagi ilmu." data-en="I am an Arabic major student with a deep interest in the Quran, Arabic language, and IT. Actively involved in teaching tahfiz, recitation rectification (tashih), and Arabic, equipped with strong communication skills and a passion for continuous learning.">
+                Saya adalah seorang pelajar jurusan Bahasa Arab yang memiliki ketertarikan besar di bidang Al-Qur'an, Bahasa Arab, dan IT. Aktif dalam kegiatan mengajar tahfidz, tashih tilawah, serta bahasa Arab, didukung kemampuan komunikasi yang baik serta dedikasi dalam belajar dan berbagi ilmu.
+            </p>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label" data-id="Kelahiran" data-en="Birth">Kelahiran</span>
+                    <span class="info-value">Samarinda, Kalimantan Timur · 07 Juli 2008</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label" data-id="Domisili" data-en="Location">Domisili</span>
+                    <span class="info-value">Magelang, Jawa Tengah, Indonesia</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label" data-id="Jenis Kelamin" data-en="Gender">Jenis Kelamin</span>
+                    <span class="info-value" data-id="Perempuan" data-en="Female">Perempuan</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label" data-id="Bahasa" data-en="Languages">Bahasa</span>
+                    <span class="info-value">Bahasa Indonesia, Bahasa Arab, Bahasa Inggris</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Riwayat Pendidikan -->
+        <section id="education" class="content-section card">
+            <div class="section-title">
+                <h2 data-id="Riwayat Pendidikan" data-en="Education Journey">Riwayat Pendidikan</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-body">
+                        <span class="badge-tag">TK</span>
+                        <h3>TK Al Ikhlas Cikarang</h3>
+                    </div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-body">
+                        <span class="badge-tag">SD</span>
+                        <h3>Madrasah Salafiyyah Ulaa Tahfidzul Qur'an Al Furqon Magelang</h3>
+                        <p class="timeline-desc" data-id="Pendidikan dasar dengan fokus peletakan tahfidz Al-Qur'an dan dasar keilmuan syar'i." data-en="Primary education focusing on Quranic memorization foundation and religious studies.">
+                            Pendidikan dasar dengan fokus peletakan tahfidz Al-Qur'an dan dasar keilmuan syar'i.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-body">
+                        <span class="badge-tag">SMP - SMA</span>
+                        <h3>Homeschooling / PKBM Al Furqon</h3>
+                        <p class="timeline-desc" data-id="Menempuh jenjang SMP hingga kini berada di kelas 3 SMA (Periode 2023 - 2026)." data-en="Undertook secondary education and currently in 12th grade (Senior High School, 2023 - 2026).">
+                            Menempuh jenjang SMP hingga kini berada di kelas 3 SMA (Periode 2023 - 2026).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Perjalanan Menuntaskan Al-Qur'an -->
+        <section id="quran" class="content-section card">
+            <div class="section-title">
+                <h2 data-id="Perjalanan Menuntaskan Al-Qur'an" data-en="Quranic Milestones">Perjalanan Menuntaskan Al-Qur'an</h2>
+            </div>
+            
+            <div class="cards-deck">
+                <div class="subcard">
+                    <div class="subcard-header">
+                        <span class="subcard-num">01</span>
+                        <h4>Jenjang Sekolah Dasar</h4>
+                    </div>
+                    <p data-id="Menyelesaikan hafalan 5 Juz pertama." data-en="Completed the first 5 Juz of memorization.">Menyelesaikan hafalan 5 Juz pertama.</p>
+                </div>
+                <div class="subcard">
+                    <div class="subcard-header">
+                        <span class="subcard-num">02</span>
+                        <h4>Ma'had Bina Madani Magelang</h4>
+                    </div>
+                    <p data-id="Melanjutkan capaian hafalan hingga mencapai 15 Juz." data-en="Progressed memorization up to 15 Juz.">Melanjutkan capaian hafalan hingga mencapai 15 Juz.</p>
+                </div>
+                <div class="subcard">
+                    <div class="subcard-header">
+                        <span class="subcard-num">03</span>
+                        <h4>Bersama Ustadzah Syarifah</h4>
+                    </div>
+                    <p data-id="Meningkatkan dan menyetorkan hafalan hingga mencapai 18 Juz." data-en="Advanced memorization to 18 Juz.">Meningkatkan dan menyetorkan hafalan hingga mencapai 18 Juz.</p>
+                </div>
+                <div class="subcard">
+                    <div class="subcard-header">
+                        <span class="subcard-num">04</span>
+                        <h4>Rumah Tahfidz Khodijah (RTK)</h4>
+                    </div>
+                    <p data-id="Menuntaskan khatam hafalan 30 Juz secara sempurna pada 21 Juni 2025." data-en="Completed full 30 Juz memorization on June 21, 2025.">Menuntaskan khatam hafalan 30 Juz secara sempurna pada 21 Juni 2025.</p>
+                </div>
+                <div class="subcard">
+                    <div class="subcard-header">
+                        <span class="subcard-num">05</span>
+                        <h4>Imam Abu Amr Ad-Dani</h4>
+                    </div>
+                    <p data-id="Program penguatan dan pemantapan hafalan mutqin (Itqan)." data-en="Intensive consolidation program for solid memorization (Itqan).">Program penguatan dan pemantapan hafalan mutqin (Itqan).</p>
+                </div>
+                <div class="subcard">
+                    <div class="subcard-header">
+                        <span class="subcard-num">06</span>
+                        <h4 data-id="Halaqah Masjid Nabawi" data-en="Prophet's Mosque Halaqah">Halaqah Masjid Nabawi</h4>
+                    </div>
+                    <p data-id="Mengikuti kelas Al-Qur'an Masjid Nabawi bersama Asy-Syaikhah Huda Zawaid." data-en="Participated in the Prophet's Mosque Quranic circle under the guidance of Asy-Shaikhah Huda Zawaid.">
+                        Mengikuti kelas Al-Qur'an Masjid Nabawi bersama Asy-Syaikhah Huda Zawaid.
+                    </p>
+                </div>
+                <div class="subcard highlight-subcard">
+                    <div class="subcard-header">
+                        <span class="subcard-num">07</span>
+                        <h4 data-id="Proses Pengambilan Sanad" data-en="Sanad Certification">Proses Pengambilan Sanad</h4>
+                    </div>
+                    <p data-id="Sedang dalam proses menyetorkan sanad Riwayat Hafsh 'an 'Ashim bersama Asy-Syaikhah Hanan Al-Yamaniyyah dan Syaikh Ahmad Nafi' Al-Mishriy." data-en="Currently in the recitation transmission process (Riwayah Hafs 'an 'Asim) with Asy-Shaikhah Hanan Al-Yamaniyyah and Shaikh Ahmad Nafi' Al-Mishriy.">
+                        Sedang dalam proses menyetorkan sanad Riwayat Hafsh 'an 'Ashim bersama Asy-Syaikhah Hanan Al-Yamaniyyah dan Syaikh Ahmad Nafi' Al-Mishriy.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pendalaman Bahasa Arab -->
+        <section id="arabic" class="content-section card">
+            <div class="section-title">
+                <h2 data-id="Pengembangan & Studi Bahasa Arab" data-en="Arabic Language Studies">Pengembangan &amp; Studi Bahasa Arab</h2>
+            </div>
+            
+            <div class="list-card-group">
+                <div class="feature-item">
+                    <div class="feature-title" data-id="Al-Arabiyyah Baina Yadaik (ABY)" data-en="Al-Arabiyyah Baina Yadaik (ABY)">
+                        Al-Arabiyyah Baina Yadaik (ABY)
+                    </div>
+                    <p data-id="Mempelajari dan menyelesaikan silsilah kitab Al-Arabiyyah Baina Yadaik hingga tuntas Jilid 3." data-en="Studied and completed the Al-Arabiyyah Baina Yadaik textbook series up to Volume 3 since primary school.">
+                        Mempelajari dan menyelesaikan silsilah kitab Al-Arabiyyah Baina Yadaik sejak jenjang hingga tuntas Jilid 3.
+                    </p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-title" data-id="Kajian Kitab Bersama Ustadzah Rifqi Amalia" data-en="Text Studies with Ustadzah Rifqi Amalia">
+                        Kajian Kitab Bersama Ustadzah Rifqi Amalia
+                    </div>
+                    <p data-id="Telah menyelesaikan kajian kitab Mukhtarot dan saat ini sedang aktif mendalami kitab Mulakhkhas Qawa'id al-Lughah al-'Arabiyyah bersama Ustadzah Rifqi Amalia." data-en="Completed the study of Mukhtarat and currently continuing with Mulakhkhas Qawa'id al-Lughah al-'Arabiyyah under the guidance of Ustadzah Rifqi Amalia.">
+                        Telah menyelesaikan kajian kitab Mukhtarot dan saat ini sedang aktif mendalami kitab Mulakhkhas Qawa'id al-Lughah al-'Arabiyyah bersama Ustadzah Rifqi Amalia.
+                    </p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-title" data-id="Bimbel ITAF (Lughoh & Syariah)" data-en="ITAF Program (Lughah & Sharia)">
+                        Bimbel ITAF (Lughoh &amp; Syariah)
+                    </div>
+                    <p data-id="Telah menyelesaikan kurikulum pembelajaran intensif kebahasaan dan syariah di Bimbel ITAF." data-en="Successfully completed the intensive language and sharia curriculum at Bimbel ITAF.">
+                        Telah menyelesaikan kurikulum pembelajaran intensif kebahasaan dan syariah di Bimbel ITAF.
+                    </p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-title" data-id="Bimbingan Belajar Teman Sebaya (Tathowwu')" data-en="Peer Tutoring (Voluntary)">
+                        Bimbingan Belajar Teman Sebaya (Tathowwu')
+                    </div>
+                    <p data-id="Mengajar dan membimbing beberapa rekan secara sukarela dalam materi adab, balaghah, nahwu, sharaf, ta'bir, dan imla'." data-en="Voluntarily tutoring peers in Adab, Balaghah, Nahwu, Sharaf, Ta'bir, and Imla'.">
+                        Mengajar dan membimbing beberapa rekan secara sukarela dalam materi adab, balaghah, nahwu, sharaf, ta'bir, dan imla'.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pengalaman Mengajar -->
+        <section id="teaching" class="content-section card">
+            <div class="section-title">
+                <h2 data-id="Pengalaman Mengajar" data-en="Teaching Experience">Pengalaman Mengajar</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-body">
+                        <span class="badge-tag" data-id="1 Semester" data-en="1 Semester">1 Semester</span>
+                        <h3 data-id="Pengajar Tahfidz Al-Qur'an" data-en="Quran Memorization Teacher">Pengajar Tahfidz Al-Qur'an</h3>
+                        <div class="org-name">Al Lu'lu' Wal Marjan (Kampus Muslimah) &amp; Rumah Qur'an Darul Ulum</div>
+                        <p class="timeline-desc" data-id="Membimbing dan menyimak setoran harian serta mendampingi penjagaan hafalan santriwati." data-en="Mentoring daily student recitations and supporting memorization retention.">
+                            Membimbing dan menyimak setoran harian serta mendampingi penjagaan hafalan santriwati.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-body">
+                        <span class="badge-tag" data-id="Sedang Berjalan" data-en="Current">Sedang Berjalan</span>
+                        <h3 data-id="Pengajar Tashih Tilawah" data-en="Quran Recitation Rectification (Tashih)">Pengajar Tashih Tilawah</h3>
+                        <div class="org-name">Al Lu'lu' Wal Marjan (Kampus Muslimah) &amp; Rumah Qur'an Darul Ulum</div>
+                        <p class="timeline-desc" data-id="Memperbaiki artikulasi makharijul huruf, ketepatan hukum tajwid, dan kelancaran bacaan tilawah." data-en="Rectifying makharij, tajwid accuracy, and fluency of Quranic recitations.">
+                            Memperbaiki artikulasi makharijul huruf, ketepatan hukum tajwid, dan kelancaran bacaan tilawah.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-step">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-body">
+                        <span class="badge-tag" data-id="Kajian Bahasa" data-en="Language Class">Kajian Bahasa</span>
+                        <h3 data-id="Pengajar Durusul Lughoh" data-en="Durusul Lughah Instructor">Pengajar Durusul Lughoh</h3>
+                        <p class="timeline-desc" data-id="Mengajar kaidah dan percakapan dasar bahasa Arab menggunakan metode kitab Durusul Lughoh al-Arabiyyah." data-en="Teaching fundamental Arabic grammar and dialogue using the Durusul Lughah curriculum.">
+                            Mengajar kaidah dan percakapan dasar bahasa Arab menggunakan metode kitab Durusul Lughoh al-Arabiyyah.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bidang IT & Portofolio Proyek -->
+        <section id="it" class="content-section card">
+            <div class="section-title">
+                <h2 data-id="Eksplorasi IT & Proyek" data-en="IT Experience & Projects">Eksplorasi IT &amp; Proyek</h2>
+            </div>
+            <p class="section-text" data-id="Memiliki pengalaman belajar dan berkarya di bidang teknologi informasi selama 4 tahun secara konsisten dengan fokus keahlian:" data-en="Consistently developing skills and building projects in Information Technology for 4 years:">
+                Memiliki pengalaman belajar dan berkarya di bidang teknologi informasi selama 4 tahun secara konsisten dengan fokus keahlian:
+            </p>
+
+            <div class="skills-chips">
+                <span class="chip">HTML5</span>
+                <span class="chip">CSS3</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">Python</span>
+                <span class="chip">Data Analysis</span>
+                <span class="chip">UI/UX &amp; Graphic Design</span>
+            </div>
+
+            <!-- Proyek Live -->
+            <div class="project-showcase">
+                <div class="project-info">
+                    <span class="project-label" data-id="Proyek Web Aplikasi Klinis" data-en="Clinical Web Application">Proyek Web Aplikasi Klinis</span>
+                    <h3>HeartCheck ID</h3>
+                    <p data-id="Aplikasi penapisan mandiri risiko kardiovaskular 5 tahun dan penghitungan usia vaskular klinis (Heart Age) berbasis web secara real-time." data-en="An interactive web application for 5-year cardiovascular risk screening and vascular heart age calculation.">
+                        Aplikasi penapisan mandiri risiko kardiovaskular 5 tahun dan penghitungan usia vaskular klinis (Heart Age) berbasis web secara real-time.
+                    </p>
+                    <a href="https://salmarufaidah.github.io/heartcheck/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-id="Buka Aplikasi Web ↗" data-en="Open Live Web App ↗">
+                        Buka Aplikasi Web ↗
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ajakan Meninjau Repositori GitHub -->
+            <div class="more-projects-box" style="margin-top: 22px; text-align: center; padding: 18px; border-radius: 12px; background: var(--primary-soft); border: 1px dashed var(--border);">
+                <p style="font-size: 0.9rem; color: var(--text-main); margin-bottom: 10px;" data-id="Jika ingin melihat proyek dan eksplorasi koding lainnya, silakan kunjungi profil GitHub saya:" data-en="If you'd like to explore my other coding projects and repositories, feel free to visit my GitHub:">
+                    Jika ingin melihat proyek dan eksplorasi koding lainnya, silakan kunjungi profil GitHub saya:
+                </p>
+                <a href="https://github.com/salmarufaidah" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size: 0.85rem;" data-id="Lihat Repositori di GitHub 🐙" data-en="View Repositories on GitHub 🐙">
+                    Lihat Repositori di GitHub 🐙
+                </a>
+            </div>
+        </section>
+
+        <!-- Kontak & Tautan -->
+        <section id="contact" class="content-section card contact-card">
+            <div class="section-title text-center">
+                <h2 data-id="Hubungi Saya" data-en="Get in Touch">Hubungi Saya</h2>
+                <p data-id="Terbuka untuk diskusi pembelajaran, halaqah Qur'an, maupun kolaborasi proyek digital." data-en="Open for educational discussions, Quranic halaqah, or digital project collaborations.">
+                    Terbuka untuk diskusi pembelajaran, halaqah Qur'an, maupun kolaborasi proyek digital.
+                </p>
+            </div>
+            
+            <div class="contact-links">
+                <a href="mailto:salmarufaidah778@gmail.com" class="contact-pill">
+                    <span class="c-icon">✉️</span> salmarufaidah778@gmail.com
+                </a>
+                <a href="https://wa.me/6289518111778" target="_blank" rel="noopener noreferrer" class="contact-pill">
+                    <span class="c-icon">💬</span> WhatsApp: 0895-1811-1778
+                </a>
+                <a href="https://github.com/salmarufaidah" target="_blank" rel="noopener noreferrer" class="contact-pill">
+                    <span class="c-icon">🐙</span> GitHub: salmarufaidah
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Salma Rufaidah · <span data-id="Pelajar Al-Qur'an, Bahasa Arab & IT" data-en="Student of Quran, Arabic & IT">Pelajar Al-Qur'an, Bahasa Arab &amp; IT</span></p>
+    </footer>
+
+    <!-- Logika Interaktivitas: Ganti Tema, Bahasa, dan Tab Navigasi Aktif -->
+    <script>
+        // Logika Mode Gelap / Terang
+        const themeBtn = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const themeLabel = document.getElementById('themeLabel');
+        const root = document.documentElement;
+
+        themeBtn.addEventListener('click', () => {
+            const currentTheme = root.getAttribute('data-theme');
+            if (currentTheme === 'light') {
+                root.setAttribute('data-theme', 'dark');
+                themeIcon.textContent = '☀️';
+                themeLabel.textContent = root.getAttribute('data-lang') === 'en' ? 'Light' : 'Terang';
+            } else {
+                root.setAttribute('data-theme', 'light');
+                themeIcon.textContent = '🌙';
+                themeLabel.textContent = root.getAttribute('data-lang') === 'en' ? 'Dark' : 'Gelap';
+            }
+        });
+
+        // Logika Bahasa (Indonesia / English)
+        const langBtn = document.getElementById('langToggle');
+        const langLabel = document.getElementById('langLabel');
+        let currentLang = 'id';
+
+        langBtn.addEventListener('click', () => {
+            currentLang = currentLang === 'id' ? 'en' : 'id';
+            root.setAttribute('data-lang', currentLang);
+            langLabel.textContent = currentLang === 'id' ? 'EN' : 'ID';
+
+            // Ubah teks semua elemen ber-atribut terjemahan
+            document.querySelectorAll('[data-id]').forEach(el => {
+                el.textContent = currentLang === 'id' ? el.getAttribute('data-id') : el.getAttribute('data-en');
+            });
+
+            // Perbarui label tombol tema sesuai bahasa terpilih
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            if (currentLang === 'id') {
+                themeLabel.textContent = isDark ? 'Terang' : 'Gelap';
+            } else {
+                themeLabel.textContent = isDark ? 'Light' : 'Dark';
+            }
+        });
+
+        // Highlight Tab Navigasi saat Scroll
+        const sections = document.querySelectorAll('section');
+        const navTabs = document.querySelectorAll('.nav-tab');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 130;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navTabs.forEach(tab => {
+                tab.classList.remove('active');
+                if (tab.getAttribute('href') === `#${current}`) {
+                    tab.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
